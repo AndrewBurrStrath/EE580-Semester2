@@ -1,0 +1,1 @@
+"./bsl_main.obj" "../linker.cmd" -llibc.a -l"C:/Users/rnb15131/Downloads/c6748/c6748/bsl/lib/evmc6748_bsl.lib" 
