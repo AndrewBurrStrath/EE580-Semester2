@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="configuration_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS100v1 USB Debug Probe" href="connections/TIXDS100usb_Connection.xml" id="Texas Instruments XDS100v1 USB Debug Probe" xml="TIXDS100usb_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Texas Instruments XDS100v1 USB Debug Probe">
+            <instance XML_version="1.2" href="drivers/tixds100icepick_c.xml" id="drivers" xml="tixds100icepick_c.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds100c674x.xml" id="drivers" xml="tixds100c674x.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="TMS320C6748" href="devices/c6748.xml" id="TMS320C6748" xml="c6748.xml" xmlpath="devices"/>
+            <device HW_revision="1" XML_version="1.2" description="C674x Floating point DSP" id="TMS320C6748" partnum="TMS320C6748">
+                    <router HW_revision="" XML_version="1.2" description="" id="device_0" isa="ICEPICK_C">
+                        <subpath id="device_1">
+                            <cpu HW_revision="" XML_version="1.2" description="" id="device_2" isa="TMS320C674X">
+                                <property Type="filepathfield" Value="..\..\..\Users\szb15138\Downloads\c6748\c6748\gel\C6748.gel" id="GEL File"/>
+                            </cpu>
+                        </subpath>
+                    </router>
+                </device>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>

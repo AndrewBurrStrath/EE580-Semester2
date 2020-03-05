@@ -1,0 +1,1 @@
+"./framework.obj" "./hello.obj" "./hellocfg.obj" "./hellocfg_c.obj" -l"./hellocfg.cmd" -llibc.a -l"C:/Users/szb15138/Downloads/c6748/c6748/bsl/lib/evmc6748_bsl.lib" 
